@@ -1,0 +1,64 @@
+body
+{
+    background-image: url(http://www.publicdomainpictures.net/pictures/70000/nahled/wood-grain-texture-i.jpg);
+    background-size: cover;
+    
+}
+.nav-slika
+{
+     width: 46px;
+     height: 44px;
+}
+ul
+{
+    text-align: center;
+    list-style-type: none;
+}
+.lis
+{
+    display:inline;
+}
+.jumbo-slika
+{
+     width: 666px;
+     height: 304px;
+}
+.jumbo-size
+{
+    margin-top: 25px;
+}
+.lin:link
+{
+    color: black;
+}
+.radio
+{
+    margin-left: 50%
+}
+.spo
+{
+    font-family: fantasy;
+    font-size: 18px;
+    color: black;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.foot
+{
+    margin-top: 25px;
+    bottom: 0;
+    background-color: aliceblue;
+}
+ul
+{
+    list-style-type: none;
+}
+.centered-content 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    color: slategray;
+}

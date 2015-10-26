@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="author" content="Jure">
+    <title>Frizerski salon Las</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link type="text/css" href="salon.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <nav class="navbar-default">
+          <div class="container-fluid">
+              <ul>
+                  <div class="navbar-left">
+                      <li><img class="nav-slika" src="logo.jpg"></li>
+                  </div>
+                  
+                  <li class="lis"><h3>Frizerski salon Las</h3></li>
+                  <nav class="nav navbar-nav navbar-right">
+                  <li class="lis"><a href="nudimo.html">Kaj nudimo</a></li>
+                  <li class="lis"><a href="cenik.html">Cenik</a></li>
+                  <li class="lis"><a href="narocise.html">Naroči se</a></li>
+                  </nav>
+              </ul>
+          </div>
+      </nav>
+      
+      <!-- slider del -->
+           
+      <div class="container">
+          <div class="jumbotron jumbo-size">
+              <div id="myCarousel" class="carousel slide">
+                  
+                  <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                      <div class="item active">
+                          <center><img  src="https://i.ytimg.com/vi/Tgmri82o6Ss/maxresdefault.jpg" alt="frizura" class="img-responsive jumbo-slika"></center>
+                          <div class="carousel-caption">
+                              <h3>Prijazno osebje</h3>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <center><img src="http://cuttingedge-hairsalon.com/wp-content/uploads/2012/08/hair-cutting.jpg" alt="frizura" class="img-responsive jumbo-slika"></center>
+                          <div class="carousel-caption">
+                              <h3>Najnovejši stili pričesk</h3>
+                          </div>
+                      </div>
+                      <div class="item">
+                          <center><img src="http://www.rukhnama.com/images/large/beautician-cutting-hair-large.jpg" alt="frizura" class="img-responsive jumbo-slika"></center>
+                          <div class="carousel-caption">
+                              <h3>Vrhunske storitve!</h3>
+                          </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                      <span class="icon-prev"></span>
+                  </a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                      <span class="icon-next"></span>
+                  </a>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Grid del -->
+      <center><h2>Kaj nudimo:</h2></center>
+      
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <h3>Nega las</h3>
+                  <p>Vaše lase negujemo le z najbolšo linijo izdelkov kozmetike kosmatinec, ki jo lahkopri nas kupite po akcijskih cenah. Preberite si več o kozmetiki kosmatinec.</p>
+                  <a href="#" class="btn btn-info">Preberi več</a>
+              </div>
+              <div class="col-md-3">
+                  <h3>Barvanje</h3>
+                  <p>Pobarvamo vas z vašo željeno barvo, ki jo lahko prinesete s seboj ali jo kupite pri nas. Naši strokovnjaki vam lahko svetujejo kateri odtenek barve vam najbol ustreza.</p>
+                  
+              </div>
+              <div class="col-md-3">
+                  <h3>Osebje</h3>
+                  <p>Naš kolektiv sestavljajo le frizerji šolani na najprestižnejših šolah po evropi. Naše frizerje in njihove reference si lahko ogledate na spodni povezavi</p>
+                  <a class="lin" href="#">Naši frizerji!</a>
+              </div>
+              <div class="col-md-3">
+                  <h3>Striženje</h3>
+                  <p>Postrižemo vas po najnovejših modnih trendih.</p>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Grid del -->
+      <center><h2>Naroči se</h2></center>
+      
+      <br>
+      <br>
+      
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <center><input type="text" name="Name" value="Ime in priimek" size="36"></center>
+                  
+                  <br>
+                  <br>
+                  
+                  <center><input type="text" name="tel" value="Telefonska št." size="36"></center>
+                  
+                  <br>
+                  <br>
+                  
+                  <center><input type="text" name="Naslov" value="Naslov" size="36"></center>
+                  
+                  <br>
+                  
+                  <div class="radio">
+                  <p class="spo">Spol:</p>
+                  <input class="spol" type="radio" name="spol"  value="Moški">Moški
+                  <br>
+                  <input class="spol" type="radio" name="spol"  value="Ženski">Ženski
+                  
+                  </div>
+                  <center><textarea rows="4" cols="50" name="pripomba">Napiši karkoli...</textarea></center>
+                  
+                  <center> <button type="button" class="btn">Pošlji</button> </center>
+              </div>
+              <div class="col-md-6">
+                  <table class="table table-hover">
+                      <tr>
+                          <th>Dan</th>
+                          <th>Delovni čas</th>
+                      </tr>
+                      <tr>
+                          <td>Ponedeljek</td>
+                          <td>08:00-22:00</td>
+                      </tr>
+                       <tr>
+                          <td>Torek</td>
+                          <td>10:00-22:00</td>
+                      </tr>
+                      <tr> 
+                          <td>Sreda</td>
+                          <td>8:00-22:00</td>
+                      </tr>
+                      <tr>
+                          <td>Četrtek</td>
+                          <td>8:00-22:00</td>
+                      </tr>
+                      <tr>
+                          <td>Petek</td>
+                          <td>8:00-22:00</td>
+                      </tr>
+                      <tr>
+                          <td>Sobota</td>
+                          <td>8:00-22:00</td>
+                      </tr>
+                      <tr>
+                          <td>Nedelja</td>
+                          <td>8:00-22:00</td>
+                      </tr>
+                  </table>
+               </div>
+         </div>
+      </div>
+      
+
+      <div class="navbar-default foot">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <ul>
+                       <li><h4>Kontakt</h4></li>
+                       <br>
+                       <li>Las d.o.o</li>
+                       <li>tel. št: 01/732-75-76<li>
+                       <li>Ulica lasišče 5</li>
+                       <li>1000 Ljubljana</li>
+                       <li>Slovenija</li>
+                       </ul>
+                 </div>
+                  <div class="col-md-4">
+                      <center><img class="nav-slika" src="logo.jpg"></center>
+                  </div>
+                  <div class="col-md-4">
+                      <br>
+                      <br>
+                      <a class="centered-content" href="nudimo.html">Kaj nudimo</a>
+                      <a  class="centered-content" href="cenik.html">Cenik</a>
+                      <a  class="centered-content " href="narocise.html">Naroči se</a>
+                  </div>
+             </div>
+         </div>
+    </div>
+      
+      
+  </body>
+</html>
